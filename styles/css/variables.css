@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light dark;
+  --font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --overlay-color: rgba(10, 10, 10, 0.35);
+  --bg-surface: rgba(255, 255, 255, 0.85);
+
+  --border-color-strong: rgba(94, 94, 94, 0.35);
+
+  --text-primary: rgba(22, 22, 24, 0.9);
+  --text-secondary: rgba(22, 22, 24, 0.72);
+
+  --accent-color: #007aff;
+  --icon-home: #1b1b1d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --overlay-color: rgba(10, 10, 10, 0.5);
+    --bg-surface: rgba(65, 65, 65, 0.7);
+
+    --border-color-strong: rgba(140, 140, 140, 0.7);
+
+    --text-primary: rgba(235, 235, 245, 0.92);
+    --text-secondary: rgba(235, 235, 245, 0.6);
+
+    --accent-color: #0984ff;
+    --icon-home: #ffffff;
+  }
+}

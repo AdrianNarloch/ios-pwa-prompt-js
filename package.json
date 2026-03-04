@@ -4,8 +4,7 @@
   "description": "iOS PWA native prompt component with Vanilla-JS, HTML and CSS",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass styles/index.scss styles/index.css",
-    "start": "live-server & npm run sass"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,7 @@
     "modal",
     "native-promt",
     "vanilla-js",
-    "sass",
+    "css-variables",
     "polyfill"
   ],
   "author": "",
@@ -27,7 +26,6 @@
   },
   "homepage": "https://github.com/narloch-eu/ios-pwa-prompt-js#readme",
   "devDependencies": {
-    "live-server": "^1.2.1",
-    "node-sass": "^4.13.1"
+    "live-server": "^1.2.1"
   }
 }
